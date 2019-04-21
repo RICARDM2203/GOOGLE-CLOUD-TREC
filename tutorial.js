@@ -5,8 +5,8 @@ let Datastore = require('@google-cloud/datastore')
 
 /* CONFIGURATION */
 let config = {
-    gcpProjectId: '',
-    gcpPubSubSubscriptionName: '',
+    gcpProjectId: 'TREC2',
+    gcpPubSubSubscriptionName: 'DATABASE',
     gcpServiceAccountKeyFilePath: './gcp_private_key.json'
 }
 _checkConfig();
